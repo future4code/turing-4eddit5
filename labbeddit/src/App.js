@@ -1,10 +1,12 @@
 import React from 'react';
 // reset do CSS;
 import './assets/style/global.css'
-import LoginPage from './pages/LoginPage'
+import Router from './pages/Router';
 
 function App() {
-  return <LoginPage />;
+  return (
+    <Router/>
+  )
 }
 
 export default App;
