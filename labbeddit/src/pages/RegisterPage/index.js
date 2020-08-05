@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import axios from 'axios'
 import './style.css'
-import {useHistory} from 'react-router-dom'
+import {useHistory} from 'react-dom'
 
 const baseUrl = `https://us-central1-labenu-apis.cloudfunctions.net/generic/planner-turing-leonardo-gomes`
 
